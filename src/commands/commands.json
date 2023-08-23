@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Entrust",
+    "perms": "admin",
+    "description": "Entrust a person with the `trusted` role.",
+    "file": "admin/entrust.js"
+  },
+  {
+    "name": "Resolve",
+    "perms": "admin",
+    "description": "Resolve an issue ticket and provide the applied solution.",
+    "file": "admin/resolve.js"
+  },
+  {
+    "name": "Roll",
+    "perms": "trusted",
+    "description": "Roll a dice with a given number of sides.",
+    "file": "trusted/roll.js"
+  },
+  {
+    "name": "Abuse",
+    "perms": "trusted",
+    "description": "Abusing this command will result in a ban. If a trusted user is abusing their power, multiple people can use this command to un-entrust them and create an issue ticket.",
+    "file": "trusted/abuse.js"
+  }
+]

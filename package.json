@@ -1,0 +1,11 @@
+{
+  "name": "unison",
+  "version": "0.0.1",
+  "description": "For streaming server.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Kye Cedar",
+  "license": "Apache-2.0"
+}
