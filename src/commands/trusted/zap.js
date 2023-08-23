@@ -2,12 +2,12 @@ const { ApplicationCommandOptionType, PermissionFlagsBits } = require("discord.j
 
 module.exports = {
   entry: {
-    name: "entrust",
-    description: "Entrust a person with the \"trusted\" role.",
+    name: "zap",
+    description: "If a user is abusing their power, 2 people can use this command to un-entrust them.",
   },
   
-  permissions: [ PermissionFlagsBits.Administrator ],
-  roles: [],
+  permissions: [],
+  roles: [process.env['TRUSTED_ROLE_ID']],
   
   execute: async (interaction) => {
     await interaction.reply({ content: "This command hasn't been built yet.", ephemeral: true });
